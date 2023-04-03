@@ -20,7 +20,7 @@ local options = {
   },
   git = {
     enable = false,
-    ignore = true,
+    ignore = false,
   },
   filesystem_watchers = {
     enable = true,
@@ -43,7 +43,7 @@ local options = {
         file = true,
         folder = true,
         folder_arrow = true,
-        git = false,
+        git = true,
       },
 
       glyphs = {

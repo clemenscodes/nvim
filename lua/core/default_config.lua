@@ -71,7 +71,7 @@ M.ui = {
       { "  Find Word", "<leader>fw", "Telescope live_grep" },
       { "  Bookmarks", "<leader>bm", "Telescope marks" },
       { "  Themes", "<leader>th", "Telescope themes" },
-      { "  Mappings", "<leader>c h", "NvCheatsheet" },
+      { "  Mappings", "<leader>ch", "NvCheatsheet" },
     },
   },
 
