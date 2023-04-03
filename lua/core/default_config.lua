@@ -66,13 +66,13 @@ M.ui = {
     },
 
     buttons = {
-      { "🚀 Projects", "<leader>pr", "Projects" },
-      { "  Find File", "<leader>ff", "Telescope find_files" },
-      { "  Recent Files", "<leader>fo", "Telescope oldfiles" },
-      { "  Find Word", "<leader>fw", "Telescope live_grep" },
-      { "  Bookmarks", "<leader>bm", "Telescope marks" },
-      { "  Themes", "<leader>th", "Telescope themes" },
-      { "  Mappings", "<leader>ch", "NvCheatsheet" },
+      { "🚀 Projects", "<leader>p", "Projects" },
+      { "🔍 Find File", "<leader>ff", "Telescope find_files" },
+      { "🕰️ Recent Files", "<leader>fo", "Telescope oldfiles" },
+      { "📖 Find Word", "<leader>fw", "Telescope live_grep" },
+      { "🔖 Bookmarks", "<leader>bm", "Telescope marks" },
+      { "🎨 Themes", "<leader>th", "Telescope themes" },
+      { "📝 Mappings", "<leader>ch", "NvCheatsheet" },
     },
   },
 

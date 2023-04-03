@@ -271,8 +271,7 @@ M.telescope = {
     ["<leader>gt"] = { "<cmd> Telescope git_status <CR>", "git status" },
 
     -- pick a hidden term
-    ["<leader>pt"] = { "<cmd> Telescope terms <CR>", "pick hidden term" },
-    ["<leader>pr"] = { "<cmd> Telescope projects<CR>", "pick projects" },
+    ["<leader>p"] = { "<cmd> Telescope projects<CR>", "pick projects" },
 
     -- theme switcher
     ["<leader>th"] = { "<cmd> Telescope themes <CR>", "nvchad themes" },

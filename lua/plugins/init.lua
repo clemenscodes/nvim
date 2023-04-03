@@ -16,6 +16,14 @@ local default_plugins = {
     },
 
     {
+        "Pocco81/auto-save.nvim",
+        config = function()
+            require("auto-save").setup({ enabled = true })
+        end,
+        lazy = false,
+    },
+
+    {
         "ahmedkhalf/project.nvim",
         config = function()
             require("project_nvim").setup()
