@@ -66,6 +66,7 @@ M.ui = {
     },
 
     buttons = {
+      { "🚀 Projects", "<leader>pr", "Projects" },
       { "  Find File", "<leader>ff", "Telescope find_files" },
       { "  Recent Files", "<leader>fo", "Telescope oldfiles" },
       { "  Find Word", "<leader>fw", "Telescope live_grep" },

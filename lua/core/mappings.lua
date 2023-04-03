@@ -272,6 +272,7 @@ M.telescope = {
 
     -- pick a hidden term
     ["<leader>pt"] = { "<cmd> Telescope terms <CR>", "pick hidden term" },
+    ["<leader>pr"] = { "<cmd> Telescope projects<CR>", "pick projects" },
 
     -- theme switcher
     ["<leader>th"] = { "<cmd> Telescope themes <CR>", "nvchad themes" },

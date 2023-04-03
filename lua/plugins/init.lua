@@ -16,6 +16,16 @@ local default_plugins = {
     },
 
     {
+        "ahmedkhalf/project.nvim",
+        config = function()
+            require("project_nvim").setup()
+        end,
+        lazy = false,
+        event = "VimEnter",
+        cmd = "Telescope projects",
+    },
+
+    {
         "NvChad/ui",
         branch = "v2.0",
         lazy = false,
