@@ -7,7 +7,7 @@ local options = {
     icons = {
       package_pending = " ",
       package_installed = " ",
-      package_uninstalled = " ﮊ",
+      package_uninstalled = "ﮊ ",
     },
 
     keymaps = {
