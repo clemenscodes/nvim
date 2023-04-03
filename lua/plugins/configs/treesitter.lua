@@ -1,5 +1,5 @@
 local options = {
-    ensure_installed = { "lua" },
+    ensure_installed = { "lua", "tsx", "json", "jsx", "html", "css", "jsx", "yaml" },
 
     highlight = {
         enable = true,
@@ -7,6 +7,9 @@ local options = {
     },
 
     indent = { enable = true },
+    autotag = {
+        enable = true
+    },
     context_commentstring = {
         enable = true,
         enable_autocmd = false,
