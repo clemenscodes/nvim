@@ -8,12 +8,12 @@ local options = {
 
     indent = { enable = true },
     autotag = {
-        enable = true
+        enable = true,
     },
     context_commentstring = {
         enable = true,
         enable_autocmd = false,
-    }
+    },
 }
 
 return options

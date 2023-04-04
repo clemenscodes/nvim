@@ -18,7 +18,7 @@ local default_plugins = {
     {
         "Pocco81/auto-save.nvim",
         config = function()
-            require("auto-save").setup({ enabled = true })
+            require("auto-save").setup { enabled = true }
         end,
         lazy = false,
     },
@@ -219,7 +219,7 @@ local default_plugins = {
 
     {
         "numToStr/Comment.nvim",
-        keys = { "gc", "gb", },
+        keys = { "gc", "gb" },
         init = function()
             require("core.utils").load_mappings "comment"
         end,
@@ -231,7 +231,7 @@ local default_plugins = {
         end,
     },
 
-     "JoosepAlviste/nvim-ts-context-commentstring",
+    "JoosepAlviste/nvim-ts-context-commentstring",
 
     -- file managing , picker etc
     {
