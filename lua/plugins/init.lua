@@ -24,6 +24,16 @@ local default_plugins = {
     },
 
     {
+        "David-Kunz/jester",
+        config = function()
+            require("jester").setup {
+                cmd = "yarn jest -t '$result' -- $file",
+            }
+        end,
+        lazy = false,
+    },
+
+    {
         "ahmedkhalf/project.nvim",
         config = function()
             require("project_nvim").setup()

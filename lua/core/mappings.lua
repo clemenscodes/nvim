@@ -45,6 +45,10 @@ M.general = {
         -- new buffer
         ["<leader>b"] = { "<cmd> enew <CR>", "new buffer" },
         ["<leader>ch"] = { "<cmd> NvCheatsheet <CR>", "Mapping cheatsheet" },
+        ["<leader>tt"] = {
+            "<cmd>lua require('jester').run()<CR>",
+            "run jest test under cursor",
+        },
     },
 
     t = {
