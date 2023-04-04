@@ -9,17 +9,15 @@ local b = null_ls.builtins
 local sources = {
 
     -- webdev stuff
-    b.formatting.deno_fmt, -- choosed deno for ts/js files cuz its very fast!
     b.formatting.prettier.with {
-        args = {
-            "--config-precedence:prefer-file",
-            "--config",
-            vim.fn.getcwd() .. "/.prettierrc",
-        },
         filetypes = {
             "html",
             "markdown",
             "css",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
             "json",
             "scss",
             "less",

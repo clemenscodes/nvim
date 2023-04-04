@@ -30,12 +30,13 @@ M.mason = {
         "stylua",
 
         -- web dev stuff
-        "css-lsp",
         "html-lsp",
-        "tailwindcss",
+        "css-lsp",
         "typescript-language-server",
-        "deno",
+        "tailwindcss-language-server",
         "prettier",
+        "emmet-ls",
+        "nxls",
     },
 }
 

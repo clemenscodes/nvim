@@ -199,6 +199,16 @@ local default_plugins = {
                 end,
             },
 
+            {
+                "windwp/nvim-ts-autotag",
+                opts = function()
+                    return require "plugins.configs.treesitter"
+                end,
+                config = function(_, opts)
+                    require("nvim-ts-autotag").setup(opts)
+                end,
+            },
+
             -- cmp sources plugins
             {
                 "saadparwaiz1/cmp_luasnip",
