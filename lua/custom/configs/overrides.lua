@@ -34,6 +34,7 @@ M.mason = {
         "css-lsp",
         "typescript-language-server",
         "tailwindcss-language-server",
+        "rustywind",
         "prettier",
         "emmet-ls",
         "nxls",

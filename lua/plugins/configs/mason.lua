@@ -5,6 +5,7 @@ local options = {
         "html-lsp",
         "css-lsp",
         "tailwindcss",
+        "rustywind",
         "tsserver",
         "prettier",
         "emmet-ls",

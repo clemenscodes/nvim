@@ -1,5 +1,18 @@
 local options = {
-    ensure_installed = { "lua", "tsx", "json", "jsx", "html", "css", "jsx", "yaml" },
+    ensure_installed = {
+        "lua",
+        "tsx",
+        "json",
+        "jsx",
+        "html",
+        "css",
+        "jsx",
+        "yaml",
+        "js",
+        "javascript",
+        "ts",
+        "typescript",
+    },
     highlight = {
         enable = true,
         use_languagetree = true,
