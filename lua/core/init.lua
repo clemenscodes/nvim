@@ -7,6 +7,8 @@ g.nvchad_theme = config.ui.theme
 g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
 g.toggle_theme_icon = "   "
 g.transparency = config.ui.transparency
+g.vimtex_view_method = 'zathura'
+g.vimtex_view_general_viewer = 'zathura'
 
 -------------------------------------- options ------------------------------------------
 opt.laststatus = 3 -- global statusline

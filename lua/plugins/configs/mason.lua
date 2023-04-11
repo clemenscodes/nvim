@@ -8,6 +8,7 @@ local options = {
         "rustywind",
         "tsserver",
         "prettier",
+        "texlab",
         "emmet-ls",
         "nxls",
     }, -- not an option from mason.nvim
@@ -18,7 +19,7 @@ local options = {
         icons = {
             package_pending = " ",
             package_installed = " ",
-            package_uninstalled = "ﮊ ",
+            package_uninstalled = "ﮊ",
         },
 
         keymaps = {
